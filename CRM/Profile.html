@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="Profile.css">
+    <!--for using awesome font "fa fa-home"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!--sidebar code-->
+    <aside>
+        <div class="sidebar">
+            <div class="navigation">
+            <ol>
+                <li id="dashboard" > 
+                    <a href="dashboard.html" title="Dashboard">
+                        <span class="fa fa-home"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                     <a href="Customers.html" title="Customers">
+                        <span class="fa fa-user-plus"></span>
+                        <span>Customers</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Leads.html" title="Leads">
+                        <span class="fa fa-user"></span>
+                        <span>Leads</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Deals.html" title="Deals">
+                        <span class="fa fa-handshake"></span>
+                        <span>Deals</span>
+                    </a>
+                </li>
+                  <li> 
+                     <a href="Tasks.html" title="Tasks">
+                        <span class=" fa fa-tasks"></span>
+                        <span>Tasks</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Profile.html" title="Profile">
+                        <span class="fa fa-user"></span>
+                        <span>Profile</span>
+                    </a>
+                </li><br><hr>
+                <li id="logout"> 
+                     <a href="login.html" title="Logout">
+                        <span class=" fa fa-sign-out-alt"></span>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ol>
+            </div>
+        </div>
+        </aside>
+
+                <!--navbar code-->
+        <nav>
+        <div class="navbar">
+            <div class="logo">
+                 <a href="">
+                        <span class=" fa fa-rocket"></span>
+                        <span>NovaCRM</span>
+                    </a>
+                    </div>
+         <div class="search">
+            <a href="">
+        <form action="" method="get">
+        <input id="search" id="search-bar" type="text" placeholder="Search...">
+                </form>
+            </a>
+            </div>
+            <div class="admin">
+            <a>
+            <span id="bell" class="fa fa-bell"></span>
+            </a>
+            <a>
+                 <span id="admin-logo" class="fa fa-circle-user"></span>
+                <span>Admin</span>
+                 <span class="fa fa-angle-down"></span>
+            </a>
+        </div>
+        </div>
+        </nav>
+
+            <!--main-container Dasboard and leads card code-->
+        <main>
+        <div class="main-container">
+            <div class="welcome">
+            <h2>Profile</h2>
+            <p>Welcome back,Admin 👋</p>
+                </div>
+            
+                <div class="adminbar">
+                <div class="admindetail" >
+                    <img src="/CRM/photo/mypic.jpeg" alt="picture"><span class="fa fa-camera"></span>
+                    <h4>Admin</h4>
+                    <h6>Administrate</h6><br><hr>
+                    <ul>
+                        <li> <span class="fa fa-envelope" ></span>  tausifahmad7368@gmail.com</li>
+                        <li> <span class="fa fa-phone" ></span>  +91 89699 19146</li>
+                        <li> <span class="fa fa-calendar" ></span>  joined on 21 july 2026</li>
+                        <li> <span class="fa fa-location" ></span> india</li> <br><hr>
+                        <li id="cp"> <span class="fa fa-lock" ></span>Change password</li>
+                    </ul>
+                </div>
+
+                <div class="PersonalInformation">
+                        <h3>Personal Information</h3>
+                        <ul>
+                            <h5>Full Name</h5>
+                            <li>Tausif Ahmad<span style="padding-left: 50px;" class="fa fa-user" ></span></li><br>
+                              <h5>Email Address</h5>
+                            <li>tausif@gmail.com<span style="padding-left: 30px;" class="fa fa-envelope" ></span></li><br>
+                              <h5>Phone Number</h5>
+                            <li>+91 89699 19146<span style="padding-left:30px;" class="fa fa-phone" ></span></li><br>
+                              <h5>Username</h5>
+                            <li>imtausif_01<span style="padding-left: 60px;" class="fa fa-user" ></span></li><br>
+                              <h5>Role</h5>
+                            <li>Administrator<span style="padding-left: 50px;" class="fa fa-diamond" ></span></li><br>
+                              <h5>joined Date</h5>
+                            <li> 21 july 2026  <span style="padding-left: 55px;" class="fa fa-calendar" ></span></li><br>
+                            <div class="about">
+                               <h4>About me</h4>
+                            <li><span style="padding-right: 10px;" class="fa fa-user" ></span>CRM administrator with experience in managin customers,leads,deals and tasks effeciently.</li>
+                            </div>
+                        </ul>
+                </div>
+                 <div class="address">
+                        <h3>Address Information</h3>
+                        <ul>
+                            <h5>Address</h5>
+                            <li>Naina ghat <span style="padding-left: 60px;" class="fa fa-home" ></span></li><br>
+                            <h5>Post Office</h5>
+                            <li>Naina ghat <span style="padding-left: 60px;" class="fa fa-home" ></span></li><br>
+                              <h5>City</h5>
+                            <li>Darbhanga<span style="padding-left: 60px;" class="fa fa-home" ></span></li><br>
+                              <h5>State</h5>
+                            <li>Bihar<span style="padding-left: 90px;" class="fa fa-home" ></span></li><br>
+                              <h5>Country</h5>
+                            <li>India<span style="padding-left: 90px;" class="fa fa-home" ></span></li><br>
+                              <h5>Pincode</h5>
+                            <li>847239<span style="padding-left: 80px;" class="fa fa-home" ></span></li><br>
+                            </ul>
+                            </div>
+                </div>
+
+    </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,250 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sidebar{
+    position: fixed;
+    bottom: 0%;
+    top: 0%;
+    left: 0%;
+    width: 200px;
+    background-color: rgb(24, 28, 66);
+    box-shadow: 1px 1px 2px rgb(214, 213, 213);
+    
+}
+#dashboard{
+    margin-top: 70px;
+}
+.sidebar .navigation ol li{
+    margin-top:30px;
+}
+#logout{
+    margin-top: 140px;
+}
+.sidebar .navigation ol li a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.sidebar .navigation .fa {
+    color: white;
+    margin-right: 10px;
+    margin-left:15px;
+    font-size: 20px;
+}
+.sidebar .navigation ol li:hover{
+border:2px solid rgb(2, 91, 255);
+border-radius: 20px;
+background-color: blue;
+margin-right:65px;
+margin-left: 10px;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0%;
+    left:0%;
+    right: 0%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgb(214, 213, 213);
+    display: flex;
+    
+}
+.navbar .logo a{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:blue;
+}
+.navbar .logo .fa {
+    margin-right: 0px;
+    margin-left:20px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.navbar .search {
+    padding-left: 500px;
+    margin-top: 5px;
+    
+}
+#search{
+    color:rgb(0, 0, 0);
+    font-size:15px;
+    font-weight: bold;
+    height: 40px;
+    width:300px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+}
+.navbar .admin {
+     padding-left: 170px;
+     margin-top: 7px;
+     font-size: 17px;
+     font-weight: 600;
+}
+#admin-logo{
+    font-size: 30px;
+}
+#bell{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.navbar .admin .fa:hover{
+    color: blue
+}
+
+
+.main-container{
+ margin-left: 200px;
+ margin-top:50px;  
+}
+.main-container .welcome h2 {
+    padding-top: 10px;
+    padding-left: 460px;
+}
+.main-container .welcome p {
+    padding-top: 2px;
+    padding-left: 450px;
+}
+
+.admindetail{
+    margin-left: 25px;
+    background-color: rgb(255, 255, 255);
+    height:460px;
+    width:250px;
+    border: 2px solid rgb(242, 240, 240);
+}
+.admindetail h4{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.admindetail h4:hover{
+    color: blue;
+}
+.admindetail h6{
+     margin-left: 85px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 242, 238);
+    color: blue;
+    border-radius: 20px;
+    display: inline-block;
+}
+.admindetail img{
+    height:100px;
+    width:100px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.admindetail ul{
+    font-size: 15px;
+}
+.admindetail li{
+    padding-top: 30px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+#cp{
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right:20px;
+    color: blue;
+}
+#cp .fa{
+    padding-right: 10px;
+}
+#cp:hover{
+      background-color: skyblue;
+}
+.admindetail li:hover{
+      color: blue;
+}
+.adminbar{
+    display: flex;
+}
+.PersonalInformation{
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    height:460px;
+    width:300px;
+    border: 2px solid rgb(242, 240, 240);
+}
+.PersonalInformation li{
+    list-style-type: none;
+    font-size: 12px;
+    border: 1px solid rgb(215, 209, 209);
+    margin-right: 100px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+      padding-left: 25px;
+     border-radius: 10px;
+}
+.PersonalInformation ul{
+        padding-left: 20px;
+        margin-top: 5px;
+}
+.PersonalInformation h3{
+     padding-left: 20px;
+      margin-top: 10px;
+}
+.PersonalInformation li:hover{
+      background-color: skyblue;
+}
+.about{
+    background-color: rgb(255, 255, 255);
+    height:80px;
+    width:750px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    display:block;
+}
+.about li{
+    margin-right: 139px;
+    padding-top :10px; 
+    padding-bottom: 10px;
+    border-radius: 0%;
+    border-color:  rgb(242, 240, 240);;
+}
+.about li:hover{
+      background-color: skyblue;
+}
+.address{
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    height:412px;
+    width:300px;
+    border: 2px solid rgb(242, 240, 240);
+}
+.address ul{
+      padding-left: 20px;
+        margin-top: 5px;
+}
+.address li{
+     list-style-type: none;
+    font-size: 12px;
+    border: 1px solid rgb(215, 209, 209);
+    margin-right: 100px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+      padding-left: 25px;
+     border-radius: 10px;
+}
+.address h3{
+       padding-left: 20px;
+      margin-top: 10px;
+}
+.address li:hover{
+    background-color: skyblue;
+}

@@ -1,0 +1,416 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sidebar{
+    position: fixed;
+    bottom: 0%;
+    top: 0%;
+    left: 0%;
+    width: 200px;
+    background-color: rgb(24, 28, 66);
+    box-shadow: 1px 1px 2px rgb(214, 213, 213);
+    
+}
+#dashboard{
+    margin-top: 70px;
+}
+.sidebar .navigation ol li{
+    margin-top:30px;
+}
+#logout{
+    margin-top: 140px;
+}
+.sidebar .navigation ol li a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.sidebar .navigation .fa {
+    color: white;
+    margin-right: 10px;
+    margin-left:15px;
+    font-size: 20px;
+}
+.sidebar .navigation ol li:hover{
+border:2px solid rgb(2, 91, 255);
+border-radius: 20px;
+background-color: blue;
+margin-right:65px;
+margin-left: 10px;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0%;
+    left:0%;
+    right: 0%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgb(214, 213, 213);
+    display: flex;
+    
+}
+.navbar .logo a{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:blue;
+}
+.navbar .logo .fa {
+    margin-right: 0px;
+    margin-left:20px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.navbar .search {
+    padding-left: 500px;
+    margin-top: 5px;
+    
+}
+#search{
+    color:rgb(0, 0, 0);
+    font-size:15px;
+    font-weight: bold;
+    height: 40px;
+    width:300px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+}
+.navbar .admin {
+     padding-left: 170px;
+     margin-top: 7px;
+     font-size: 17px;
+     font-weight: 600;
+}
+#admin-logo{
+    font-size: 30px;
+}
+#bell{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.navbar .admin .fa:hover{
+    color: blue
+}
+
+
+.main-container{
+ margin-left: 200px;
+ margin-top:50px;  
+}
+.main-container .welcome h2 {
+    padding-top: 10px;
+    padding-left: 460px;
+}
+.main-container .welcome p {
+    padding-top: 2px;
+    padding-left: 450px;
+}
+.main-container .card{
+            padding-top: 20px;
+            padding-bottom: px;
+             padding-left: 20px;
+             border: 2px solid rgb(243, 240, 240) ;
+             border-radius: 10px;
+             width:220px;
+             height: 170px;
+             margin-left: 0px;
+             margin-top: 10px;   
+}
+.main-container .card .fa{
+     font-size: 40px;
+     color: blue;
+     border: 2px solid white;
+     border-radius: 10px;
+     padding-top:10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: rgb(200, 200, 230);
+}
+.main-container .card h1{
+    padding-left: 80px;
+    padding-bottom: 5px;
+    color: blue;
+}
+.main-container .card p{
+    color: green;
+    font-weight: 600;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+.main-container .card span{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main-container .build{
+            padding-top: 20px;
+            padding-bottom: px;
+             padding-left: 20px;
+             border: 2px solid rgb(243, 240, 240) ;
+             border-radius: 10px;
+             width:220px;
+             height: 170px;
+             margin-left: 0px;
+             margin-top: 10px;   
+}
+.main-container .build .fa{
+     font-size: 40px;
+     color: rgb(196, 29, 225);
+     border: 2px solid white;
+     border-radius: 10px;
+     padding-top:10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: rgb(200, 200, 230);
+}
+.main-container .build h1{
+    padding-left: 80px;
+    padding-bottom: 5px;
+    color:  rgb(196, 29, 225);
+}
+.main-container .build p{
+    color: green;
+    font-weight: 600;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+.main-container .build span{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main-container .agent{
+            padding-top: 20px;
+            padding-bottom: px;
+             padding-left: 20px;
+             border: 2px solid rgb(243, 240, 240) ;
+             border-radius: 10px;
+             width:220px;
+             height: 170px;
+             margin-left: 0px;
+             margin-top: 10px;
+}
+.main-container .agent .fa{
+     font-size: 40px;
+     color: rgb(14, 171, 8);
+     border: 2px solid white;
+     border-radius: 10px;
+     padding-top:10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: rgb(200, 200, 230);
+}
+.main-container .agent h1{
+    padding-left: 80px;
+    padding-bottom: 5px;
+    color:  rgb(14, 171, 8);
+}
+.main-container .agent p{
+    color: green;
+    font-weight: 600;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+.main-container .agent span{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main-container .sales{
+            padding-top: 20px;
+            padding-bottom: px;
+             padding-left: 20px;
+             border: 2px solid rgb(243, 240, 240) ;
+             border-radius: 10px;
+             width:220px;
+             height: 170px;
+             margin-left: 0px;
+             margin-top: 10px;
+}
+.main-container .sales .fa{
+     font-size: 40px;
+     color: rgb(231, 114, 13);
+     border: 2px solid white;
+     border-radius: 10px;
+     padding-top:10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: rgb(200, 200, 230);
+}
+.main-container .sales h1{
+    padding-left: 80px;
+    padding-bottom: 5px;
+    color:  rgb(231, 114, 13);
+}
+.main-container .sales p{
+    color: green;
+    font-weight: 600;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+.main-container .sales span{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main-container .card-container {
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
+    margin-left: 20px;
+}
+.main-container .sales:hover{
+    border:2px solid rgb(231, 114, 13);
+}
+.main-container .agent:hover{
+    border:2px solid  green;
+}
+.main-container .build:hover{
+    border:2px solid rgb(196, 29, 225);
+}
+.main-container .card:hover{
+        border:2px solid blue;
+}
+
+
+.action{
+    border: 2px solid rgb(243, 240, 240);
+    height: 270px;
+    width:250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.action h4{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.action ul li{
+  border: 1px solid rgb(205, 205, 217);
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+    list-style: none;
+}
+.action .ag {
+    margin-top: 30px;
+    color:green
+}
+.action .bl{
+     margin-top: 30px;
+    color: rgb(196, 29, 225);
+}
+.action li:hover{
+    border:1.5px solid blue;
+}
+#ar{
+    padding-left: 25px;
+}
+#ara{
+     padding-left: 50px;
+}
+#arp{
+     padding-left: 55px;
+}
+
+
+.recent{
+    border: 2px solid rgb(243, 240, 240);
+    height: 270px;
+    width:700px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.recent h4{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.recent ul li{
+      border: 1px solid rgb(205, 205, 217);
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+    list-style: none;
+}
+
+.recent .re2{
+    margin-top: 5px;
+    color:green
+
+}
+.recent .re3{
+      margin-top: 5px;
+    color:rgb(147, 60, 7)
+
+}
+.recent .re4{
+      margin-top: 5px;
+    color:blue;
+
+}
+.recent .re5{
+      margin-top: 5px;
+    color:green;
+}
+.recent .time{
+    margin-left: 290px;
+    color: rgb(127, 123, 123);
+}
+.recent .time2{
+    margin-left: 345px;
+    color: rgb(127, 123, 123);
+}
+.recent .time3{
+    margin-left: 300px;
+    color: rgb(127, 123, 123);
+}
+.recent .time4{
+    margin-left: 330px;
+    color: rgb(127, 123, 123);
+}
+.recent .time5{
+    margin-left: 320px;
+    color: rgb(127, 123, 123);
+}
+.recent li:hover{
+     border:1.5px solid blue;
+}
+.actionrecent{
+    display: flex;
+
+}

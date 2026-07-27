@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="Tasks.css">
+    <!--for using awesome font "fa fa-home"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <!--sidebar code-->
+    <aside>
+        <div class="sidebar">
+            <div class="navigation">
+            <ol>
+                <li id="dashboard" > 
+                    <a href="dashboard.html" title="Dashboard">
+                        <span class="fa fa-home"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                     <a href="Customers.html" title="Customers">
+                        <span class="fa fa-user-plus"></span>
+                        <span>Customers</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Leads.html" title="Leads">
+                        <span class="fa fa-user"></span>
+                        <span>Leads</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Deals.html" title="Deals">
+                        <span class="fa fa-handshake"></span>
+                        <span>Deals</span>
+                    </a>
+                </li>
+                  <li> 
+                     <a href="Tasks.html" title="Tasks">
+                        <span class=" fa fa-tasks"></span>
+                        <span>Tasks</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Profile.html" title="Profile">
+                        <span class="fa fa-user"></span>
+                        <span>Profile</span>
+                    </a>
+                </li><br><hr>
+                <li id="logout"> 
+                     <a href="login.html" title="Logout">
+                        <span class=" fa fa-sign-out-alt"></span>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ol>
+            </div>
+        </div>
+        </aside>
+
+                <!--navbar code-->
+        <nav>
+        <div class="navbar">
+            <div class="logo">
+                 <a href="">
+                        <span class=" fa fa-building"></span>
+                        <span>TstateCRM</span>
+                    </a>
+                    </div>
+         <div class="search">
+            <a href="">
+        <form action="" method="get">
+        <input id="search" id="search-bar" type="text" placeholder="Search...">
+                </form>
+            </a>
+            </div>
+            <div class="admin">
+            <a>
+            <span id="bell" class="fa fa-bell"></span>
+            </a>
+            <a>
+                 <span id="admin-logo" class="fa fa-circle-user"></span>
+                <span>Admin</span>
+                 <span class="fa fa-angle-down"></span>
+            </a>
+        </div>
+        </div>
+        </nav>
+
+            <!--main-container Dasboard and leads card code-->
+        <main>
+        <div class="main-container">
+            <div class="welcome">
+            <h2>Tasks</h2>
+            <p>Manage all your tasks and follow ups</p>
+                </div>
+
+                      <!--Dropdown list making-->
+            <div class="dropdown">
+                <button >Filter Status <div class="fa fa-angle-down"></div></button>
+                <div class="content">
+                    <a href="">All</a>
+                      <a href="">Pending</a>
+                        <a href="">Completed</a>
+                          <a href="">In progress </a>
+                              
+                </div>    
+            </div>
+            
+              
+            
+              <div class="customerdetails">
+            <h4>Task Details...</h4>
+
+             <table>
+            <tr>
+                <th>ID</th>
+                <th>Task Title</th>
+                <th>Related To</th>
+                <th>Assignee</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+                <th>Status</th>
+                <th>Action</th>
+
+
+            </tr>
+            <tr> 
+                <td>1</td>
+                <td>Call client for requirement</td>
+                <td>ixigo</td>
+                <td>Danish Iqbal</td>
+                <td> <div class="fa fa-calendar"></div>18 jul 2026</div></td>
+                <td style="color:red;">High</td>
+                <td style="color: green;">Pending</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+                        <tr> 
+                <td>2</td>
+                <td>Send Proposal to client</td>
+                <td>Adani</td>
+                <td>Raza Iqbal</td>
+                <td> <div class="fa fa-calendar"></div>20 jul 2026</div></td>
+                <td style="color:rgb(14, 44, 213);">Medium</td>
+                <td style="color: green;">Pending</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+            <tr> 
+                <td>3</td>
+                <td>Meeting with marketing team</td>
+                <td>TCS</td>
+                <td>Chand Ansari</td>
+                <td> <div class="fa fa-calendar"></div>25 jul 2026</div></td>
+                <td style="color:red;">High</td>
+                <td style="color: green;">completed</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+            <tr> 
+                <td>4</td>
+                <td>Follow up for Google team</td>
+                <td>Google</td>
+                <td>Shayan Ahmad</td>
+                <td> <div class="fa fa-calendar"></div>19 jul 2026</div></td>
+                <td style="color:blue;">Medium</td>
+                <td style="color:blue;">In Progress</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+            <tr> 
+                <td>5</td>
+                <td>Prepare quotation</td>
+                <td>Adobe</td>
+                <td>Jashan Singh</td>
+                <td> <div class="fa fa-calendar"></div>22 jul 2026</div></td>
+                <td style="color:green;">Low</td>
+                <td style="color: blue;">In progress</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+            <tr> 
+                <td>6</td>
+                <td>Product demo session</td>
+                <td>Microsoft</td>
+                <td>Rehan Khan</td>
+                <td> <div class="fa fa-calendar"></div>27 jul 2026</div></td>
+                <td style="color:red;">High</td>
+                <td style="color: green;">Pending</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+            
+            </table>
+        </div>
+            
+    </div>
+    </main>
+</body>
+</html>

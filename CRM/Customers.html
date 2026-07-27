@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers</title>
+    <link rel="stylesheet" href="Customers.css">
+    <!--for using awesome font "fa fa-home"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!--sidebar code-->
+    <aside>
+        <div class="sidebar">
+            <div class="navigation">
+            <ol>
+                <li id="dashboard" > 
+                    <a href="dashboard.html" title="Dashboard">
+                        <span class="fa fa-home"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                     <a href="Customers.html" title="Customers">
+                        <span class="fa fa-user-plus"></span>
+                        <span>Customers</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Leads.html" title="Leads">
+                        <span class="fa fa-user"></span>
+                        <span>Leads</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Deals.html" title="Deals">
+                        <span class="fa fa-handshake"></span>
+                        <span>Deals</span>
+                    </a>
+                </li>
+                  <li> 
+                     <a href="Tasks.html" title="Tasks">
+                        <span class=" fa fa-tasks"></span>
+                        <span>Tasks</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="Profile.html" title="Profile">
+                        <span class="fa fa-user"></span>
+                        <span>Profile</span>
+                    </a>
+                </li><br><hr>
+                <li id="logout"> 
+                     <a href="login.html" title="Logout">
+                        <span class=" fa fa-sign-out-alt"></span>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ol>
+            </div>
+        </div>
+        </aside>
+
+                <!--navbar code-->
+        <nav>
+        <div class="navbar">
+            <div class="logo">
+                 <a href="">
+                        <span class=" fa fa-rocket"></span>
+                        <span>NovaCRM</span>
+                    </a>
+                    </div>
+         <div class="search">
+            <a href="">
+        <form action="" method="get">
+        <input id="search" id="search-bar" type="text" placeholder="Search...">
+                </form>
+            </a>
+            </div>
+            <div class="admin">
+            <a>
+            <span id="bell" class="fa fa-bell"></span>
+            </a>
+            <a>
+                 <span id="admin-logo" class="fa fa-circle-user"></span>
+                <span>Admin</span>
+                 <span class="fa fa-angle-down"></span>
+            </a>
+        </div>
+        </div>
+        </nav>
+
+            <!--main-container Dasboard and leads card code-->
+            <main>
+        <div class="main-container">
+            <div class="welcome">
+            <h2>Customers</h2>
+            <p>Manage Customers </p>
+                </div>
+            
+        <div class="card-container">
+         <div class="card">
+            <span class="fa fa-users" ></span>
+            <span>Customers</span>
+            <h1>25</h1>
+            <p>+5 this week</p>
+        </div>
+          <div class="agent">
+            <span class="fa fa-user" ></span>
+            <span>Leads</span>
+            <h1>15</h1>
+            <p>+2 this week</p>
+        </div>
+          <div class="build">
+            <span class="fa fa-building" ></span>
+            <span>Won Deals</span>
+            <h1>8</h1>
+            <p>+5 this week</p>
+        </div>
+          <div class="sales">
+            <span class="fa fa-tasks" ></span>
+            <span>Pending Task</span>
+            <h1>6</h1>
+            <p style="color: red;">-3 this week</p>
+        </div>
+        </div>
+        
+
+        <div class="customerdetails">
+            <h4>Recent Customers...</h4>
+            
+             <!--Dropdown list making-->
+            <div class="dropdown">
+                <button>Filter Status <div class="fa fa-angle-down"></div> </button>
+                <div class="content">
+                    <a href="">active</a>
+                      <a href="">inactive</a>
+                </div>
+            </div>
+
+
+            <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Status</th>
+                <th>Action</th>
+
+            </tr>
+            <tr> 
+                <td>1</td>
+                <td>Danish Iqbal</td>
+                <td>ixigo</td>
+                <td>danish@gmail.com</td>
+                <td>9878987856</td>
+                <td style="color: green;">active</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+                        <tr> 
+                <td>2</td>
+                <td>Raza Iqbal</td>
+                <td>Adani</td>
+                <td>raza@gmail.com</td>
+                <td>8873585556</td>
+                <td style="color: green;">active</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+
+                        <tr> 
+                <td>3</td>
+                <td>Chand Ansari</td>
+                <td>Tata</td>
+                <td>chand@gmail.com</td>
+                <td>9598754737</td>
+                <td style="color: red;">inactive</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+
+                        <tr> 
+                <td>4</td>
+                <td>Shayan Ahmad</td>
+                <td>Google</td>
+                <td>shayan@gmail.com</td>
+                <td>8969786536</td>
+                <td style="color: green;">active</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+
+                        <tr> 
+                <td>5</td>
+                <td>Jashan singh</td>
+                <td>Tesla</td>
+                <td>jashan@gmail.com</td>
+                <td>8976547876</td>
+                <td style="color: red;">inactive</td>
+                <td><span style="padding-right: 20px;" class="fa fa-tasks"></span><span class="fa fa-trash" ></span></td>
+
+            </tr>
+
+            
+            </table>
+        </div>
+
+        </div>
+
+        </main>
+</body>
+</html>
